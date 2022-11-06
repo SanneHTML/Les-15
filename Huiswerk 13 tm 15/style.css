@@ -1,0 +1,82 @@
+html{
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+body{
+    min-height: 100%;
+    margin: 0;
+    background-color: blanchedalmond;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 5px;
+    }
+ul a{
+    color: white;
+    text-decoration: none;
+    }
+li{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+    background-color: rgb(49, 128, 0);
+    }
+li:hover{
+    background-color: rgb(252, 216, 161);
+    border-style: none;
+    }
+footer {
+    padding: 50px;
+    }
+.p1{
+    width: 850px;
+}
+.img1{
+    height: 300px;
+    width: 150px;
+}
+thead{
+    font-size: 30px;
+}
+th{
+    padding-bottom: 10px;
+    text-align: left;
+}
+table{
+    width: 850px;
+}
+td{
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.td1{
+    width: 200px;
+    height: 150px; 
+}
+.td2{
+    width: 200px;
+    height: 40px;
+}
+input[type="text"], input[type="email"], textarea, select, button{
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+textarea{
+    height: 100px;
+    padding: 5px 4px;
+}
+input.button:active{
+    background-color: green;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
